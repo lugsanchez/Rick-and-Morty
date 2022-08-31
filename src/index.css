@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #020003;
+}
+
+.foto1{
+    width: 45rem;
+    height: 16rem;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 1.5rem;
+}
+
+.header{
+    background-color:#020003;
+    height: 15rem;
+}
+
+.titulo1{
+    font-size: 1rem;
+    color: #28b9d0;
+    text-shadow: 2px 2px 2px  #467024;
+    text-align: center;
+    font-family: cursive;
+}
+
+.input{
+    background-color: #94b8ff;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 4.5rem;
+    width: 70rem;
+    margin-top: 3rem;
+}
+
+.input::placeholder{
+    color: #020003;
+}
+
+/* ------styleCard----------- */
+
+.styleCard{
+    width: 25rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    background-color: #94b8ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    margin: 1rem;  
+}
+
+.image{
+    width: 40%;
+    height: 100%;  
+}
+
+.imgCard{
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+.txtContainer{
+    width: 15rem;
+    height: 9.5rem;
+    display: flex; 
+    flex-direction: column;   
+    align-items: center; 
+    justify-content: center; 
+}
+
+h2{
+    font-size: 1.5rem;
+    color: #227a56;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    color:  #075662;
+}
+
+/* ----------card------- */
+
+.divCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20rem;
+
+}
